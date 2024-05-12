@@ -3,7 +3,7 @@ import numpy as np
 
 #/////////////////
 lst = []
-n = int(input("enter reang ==> "))
+n = int(input("enter range ==> "))
 sum = []
 
 #////////////////
@@ -13,11 +13,11 @@ for i in range(0, n):
 print(lst) 
 
 #//////////////   
-touta = np.sum(lst)
-print (touta) 
+total = np.sum(lst)
+print (total) 
 
 #///////////////
-avr = touta / n 
+avr = total / n 
 print(avr) 
     
     
